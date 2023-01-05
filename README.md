@@ -1,6 +1,6 @@
 # Lexicon UI
 
-Frontend for Lexicon - Built with VueJS 3 and Vite
+Frontend for Lexicon - Built with VueJS 3 and Vite. Hosted on Vercel
 
 ## Customize configuration
 
@@ -51,3 +51,9 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+### Prod deployment
+
+1. Create a PR
+2. Get PR approved
+3. Once approved, Vercel will automatically pick up the changes and deploy to prod
