@@ -2,11 +2,7 @@
 
 Frontend for Lexicon - Built with VueJS 3 and Vite. Hosted on Vercel
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Project Setup - Local
 
 ```sh
 npm install
@@ -16,12 +12,6 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
@@ -39,7 +29,7 @@ npm run test:e2e:dev
 This runs the end-to-end tests against the Vite development server.
 It is much faster than the production build.
 
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
+But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments or, in our case, Vercel):
 
 ```sh
 npm run build
@@ -47,6 +37,8 @@ npm run test:e2e
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
+
+Fix issues with code formatting in the repo with the following command. It will automatically scan through the repo and fix all linting issues.
 
 ```sh
 npm run lint
